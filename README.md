@@ -2,7 +2,7 @@
 
 Qemu in Native Termux Desk mode
 
+pkg update -y && pkg install qemu-system-x86-64-headless qemu-utils -y
 
-
-
+qemu-img create -f qcow2 winxp.qcow2 10
 
